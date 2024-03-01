@@ -1,0 +1,333 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    border: 0;
+    margin: 0;
+    
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(247, 230, 210);
+    box-shadow: 1px 1px 1px rgba(155, 154, 154, 0.616);
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 19%;
+    align-items: center;
+    justify-content: center;
+}
+
+#usuario-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    background-image: url(img/video.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#usuario-form img{
+    width: 150px;
+    margin: 15px 0;
+    border-radius: 50%;
+    background-color: rgba(29, 29, 29, 0.768);
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+label{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+form{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.524);
+    padding: 35px 0;
+}
+
+input{
+    width: 280px;
+    height: 32px;
+    margin: 15px;
+    text-align: center;
+    background-color: white;
+    font-size: 15px;
+    background-color: rgb(247, 230, 210);
+    font-weight: bold;
+
+}
+
+select{
+    height: 32px;
+    width: 280px;
+    text-align: center;
+    background-color: rgb(247, 230, 210);
+    font-weight: bold;
+}
+
+textarea{
+    height: 40px;
+    width: 280px;
+    resize: none;
+    font-size: 13.5px;
+    text-align: center;
+    background-color: rgb(247, 230, 210);
+    font-weight: bold;
+}
+
+button{
+    padding: 5px 68px;
+    margin: 15px;
+    background-color: white;
+    opacity: 1;
+    transition: 0.6s;
+    cursor: pointer;
+    border: 1.5px solid black;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+    
+}
+
+button:hover{
+    background-color: rgb(161, 161, 161);
+    opacity: 0.6;
+    transition: 0.6s;
+}
+
+.infoContainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 45px 0 0;
+    width: 100%;
+    background-image: url(img/hogwarts-sala.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+
+
+.img-somos1{
+    width: 25%;
+}
+
+.img-somos1 img{
+    border: 8px #ce6d1ea9 ridge;
+}
+
+
+#img-person img{
+    width: 95%;
+}
+
+.info img{
+    width: 72%;
+
+}
+.info-somos1{
+    background-color: #ce6d1e81;
+    width: 50%;    
+    height: 50%;
+    margin: 25px 0;
+}
+
+.info-somos p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Sortear casa */
+.casaElegir h2{
+    margin-top: 30px;
+    font-size: 35px;
+    color: #ce6d1ea9;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.casaElegir img{
+    width: 125px;
+    border: 8px #ce6d1ea9 ridge;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.casaElegir img:hover{
+    transition: 0.6s;
+    opacity: 0.6;
+}
+
+.casaElegir h3{
+    font-size: 25px;
+    color: #ce6d1ea9;
+    font-weight: bold;
+}
+
+.sorteoEst{
+    margin-top: 35px;
+}
+
+.sorteoEst img{
+    width: 150px;
+    border: none;
+}
+
+.sorteoEst img:hover{
+    width: 165px;
+    opacity: 1;
+    cursor: default;
+}
+
+.sorteoEst p{
+    color: #f3b079;
+    background-color: #ce6d1e41;
+    padding: 10px ;
+}
+
+
+/*Animal patronus*/
+.animalPatronusCont{
+    padding: 55px 0;
+    background-image: url("img/wallpaper-animal.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    color: white;
+}
+
+.animalPatronusCont img{
+    width: 260px;
+    transition: 0.6s;
+}
+
+.animalPatronusCont img:hover{
+    opacity: 0.6;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+#animalBoton{
+    border: 8px #1c1949 ridge;
+}
+
+#animalBoton:hover{
+    width: 290px;
+    cursor: pointer;
+}
+
+.animalPatronusCont h4{
+    margin-top: 30px;
+}
+
+
+
+/* Clase pociones */
+#clase{
+    background-image: url(img/wallpaperPotion.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+#claseBoton{
+    border: 2px solid #7c400fa9;
+    background-color: #ce6d1ea9;
+    padding: 4px;
+    text-align: center;
+    transition: 0.6s;
+}
+
+#claseBoton:hover{
+    cursor: pointer;
+    transition: 0.6s;
+    opacity: 0.7;
+}
+
+#clase h2{
+    margin-top: 25px;
+    font-weight: bold;
+    color: #ce6d1ef5;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 768px){
+
+    header img{
+        width: 250px;
+    }
+
+    #usuario-form{
+        background-image: url(img/responsiveImg/mobile1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .infoContainer{
+        background-image: url(img/responsiveImg/mobile2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .animalPatronusCont{
+        background-image: url(img/responsiveImg/mobile3.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .info{
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    #img-person{
+        align-items: center;
+        margin-right: 85px;
+    }
+
+    #img-person img{
+        width: 200px;
+    }
+
+    .clase img{
+        width: 300px;
+        margin-top: 20px;
+    }
+}
